@@ -1,0 +1,11 @@
+<div class="search-block">
+    <form [formGroup]="form" (submit)="submit()">
+        <div class="input-block">
+            <input type="text" class="form-control" aria-label="Sizing" name="title" placeholder="Ключевые слова" formControlName="title" />
+        </div>
+        <div class="button-block">
+            <button class="btn btn-success">Поиск</button>
+        </div>
+    </form>
+
+</div>
